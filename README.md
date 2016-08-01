@@ -21,6 +21,12 @@ _This script/project is originaly build for **Adobe Photoshop CS6**._
 * Import and place the hand
 * Wouaouh!
 
+## TO-DO
+
+The final script may automate the way to create this view.
+
+![to-do](assets/todo.jpg)
+
 ## License
 
 Project licensed under the [MIT License](LICENSE).  

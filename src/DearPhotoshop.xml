@@ -1,0 +1,631 @@
+<ActionFile key="Arts%20Plastiques.atn" file="/e/Dropbox/Labs/Photoshop/Arts%20Plastiques.atn">
+  <ActionSet version="16" name="Arts Plastiques" expanded="true" count="1">
+    <Action key="1" name="DearPhotograph" expanded="false" count="31">
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="duplicate" name="Dupliquer" hasDescriptor="true">
+        <ActionDescriptor key="duplicate" count="3">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " property="1113811815" propertyName="Background" propertySym="Bckg"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.STRINGTYPE key="1315774496" id="1315774496" symname="Name" sym="Nm  " string="Photography"/>
+          <DescValueType.INTEGERTYPE key="1450341230" id="1450341230" symname="Version" sym="Vrsn" integer="5"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="inverse" name="Intervertir" hasDescriptor="false"/>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="delete" name="Supprimer" hasDescriptor="false"/>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="inverse" name="Intervertir" hasDescriptor="false"/>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="transform" name="Transformation" hasDescriptor="true">
+        <ActionDescriptor key="transform" count="7">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.ENUMERATEDTYPE key="1179935603" id="1179935603" symname="FreeTransformCenterState" sym="FTcs" enumeratedTypeString="QuadCenterState" enumeratedType="QCSt" enumeratedValueString="QCSAverage" enumeratedValue="Qcsa"/>
+          <DescValueType.OBJECTTYPE key="1332114292" id="1332114292" symname="Offset" sym="Ofst" objectTypeString="Offset" objectType="Ofst" count="2">
+            <ActionDescriptor key="1332114292" id="1332114292" symname="Offset" sym="Ofst" count="2">
+              <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="4.5"/>
+              <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="4.49999999999997"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.UNITDOUBLE key="1466201192" id="1466201192" symname="Width" sym="Wdth" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="98.5172981878089"/>
+          <DescValueType.UNITDOUBLE key="1214736500" id="1214736500" symname="Height" sym="Hght" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="97.9118329466357"/>
+          <DescValueType.UNITDOUBLE key="1097754476" id="1097754476" symname="Angle" sym="Angl" unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="0.91652564315462"/>
+          <DescValueType.ENUMERATEDTYPE key="1231975538" id="1231975538" symname="Intersect" sym="Intr" enumeratedTypeString="Interpolation" enumeratedType="Intp" enumeratedValueString="Bicubic" enumeratedValue="Bcbc"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="transform" name="Transformation" hasDescriptor="true">
+        <ActionDescriptor key="transform" count="9">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.ENUMERATEDTYPE key="1179935603" id="1179935603" symname="FreeTransformCenterState" sym="FTcs" enumeratedTypeString="QuadCenterState" enumeratedType="QCSt" enumeratedValueString="QCSAverage" enumeratedValue="Qcsa"/>
+          <DescValueType.OBJECTTYPE key="1332114292" id="1332114292" symname="Offset" sym="Ofst" objectTypeString="Offset" objectType="Ofst" count="2">
+            <ActionDescriptor key="1332114292" id="1332114292" symname="Offset" sym="Ofst" count="2">
+              <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="1.97744165814493"/>
+              <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="-4.73288664356903"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.UNITDOUBLE key="1466201192" id="1466201192" symname="Width" sym="Wdth" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="99.3921645058767"/>
+          <DescValueType.UNITDOUBLE key="1214736500" id="1214736500" symname="Height" sym="Hght" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="99.9941731875442"/>
+          <DescValueType.OBJECTTYPE key="1399547255" id="1399547255" symname="Skew" sym="Skew" objectTypeString="Point" objectType="Pnt " count="2">
+            <ActionDescriptor key="1399547255" id="1399547255" symname="Skew" sym="Skew" count="2">
+              <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="-1.18865863151709"/>
+              <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="0"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.UNITDOUBLE key="1097754476" id="1097754476" symname="Angle" sym="Angl" unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="-0.61507294435482"/>
+          <DescValueType.OBJECTTYPE key="1433628263" id="1433628263" symname="Using" sym="Usng" objectTypeString="Point" objectType="Pnt " count="2">
+            <ActionDescriptor key="1433628263" id="1433628263" symname="Using" sym="Usng" count="2">
+              <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="-0.00003257293825"/>
+              <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="-0.00305254964209"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.ENUMERATEDTYPE key="1231975538" id="1231975538" symname="Intersect" sym="Intr" enumeratedTypeString="Interpolation" enumeratedType="Intp" enumeratedValueString="Bicubic" enumeratedValue="Bcbc"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="duplicate" name="Dupliquer" hasDescriptor="true">
+        <ActionDescriptor key="duplicate" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.STRINGTYPE key="1315774496" id="1315774496" symname="Name" sym="Nm  " string="Cadre"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="brightnessEvent" name="Luminosité/Contraste" hasDescriptor="true">
+        <ActionDescriptor key="brightnessEvent" count="3">
+          <DescValueType.INTEGERTYPE key="1114793832" id="1114793832" symname="Brightness" sym="Brgh" integer="45"/>
+          <DescValueType.INTEGERTYPE key="1131312242" id="1131312242" symname="Center" sym="Cntr" integer="44"/>
+          <DescValueType.BOOLEANTYPE key="638" id="638" symname="useLegacy" sym="useLegacy" boolean="false"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="hueSaturation" name="Teinte/Saturation" hasDescriptor="true">
+        <ActionDescriptor key="hueSaturation" count="3">
+          <DescValueType.ENUMERATEDTYPE key="628" id="628" symname="presetKind" sym="presetKind" enumeratedTypeString="presetKindType" enumeratedType="presetKindType" enumeratedValueString="presetKindCustom" enumeratedValue="presetKindCustom"/>
+          <DescValueType.BOOLEANTYPE key="1131180666" id="1131180666" symname="Colorize" sym="Clrz" boolean="false"/>
+          <DescValueType.LISTTYPE key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs">
+            <ActionList key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs" count="1">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="HueSatAdjustmentV2" objectType="Hst2" count="3">
+                <ActionDescriptor key="0" count="3">
+                  <DescValueType.INTEGERTYPE key="1210064928" id="1210064928" symname="Hue" sym="H   " integer="0"/>
+                  <DescValueType.INTEGERTYPE key="1400140404" id="1400140404" symname="Saturation" sym="Strt" integer="-36"/>
+                  <DescValueType.INTEGERTYPE key="1281845364" id="1281845364" symname="Lightness" sym="Lght" integer="0"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="curves" name="Courbes" hasDescriptor="true">
+        <ActionDescriptor key="curves" count="2">
+          <DescValueType.ENUMERATEDTYPE key="628" id="628" symname="presetKind" sym="presetKind" enumeratedTypeString="presetKindType" enumeratedType="presetKindType" enumeratedValueString="presetKindCustom" enumeratedValue="presetKindCustom"/>
+          <DescValueType.LISTTYPE key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs">
+            <ActionList key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs" count="3">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="CurvesAdjustment" objectType="CrvA" count="2">
+                <ActionDescriptor key="0" count="2">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Red" enumeratedValue="Rd  "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.LISTTYPE key="1131574816" id="1131574816" symname="Curve" sym="Crv ">
+                    <ActionList key="1131574816" id="1131574816" symname="Curve" sym="Crv " count="2">
+                      <DescValueType.OBJECTTYPE key="0" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="0" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="11"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="14"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="1" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="1" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="255"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="241"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+              <DescValueType.OBJECTTYPE key="1" objectTypeString="CurvesAdjustment" objectType="CrvA" count="2">
+                <ActionDescriptor key="1" count="2">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Green" enumeratedValue="Grn "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.LISTTYPE key="1131574816" id="1131574816" symname="Curve" sym="Crv ">
+                    <ActionList key="1131574816" id="1131574816" symname="Curve" sym="Crv " count="2">
+                      <DescValueType.OBJECTTYPE key="0" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="0" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="0"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="4"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="1" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="1" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="250"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="247"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+              <DescValueType.OBJECTTYPE key="2" objectTypeString="CurvesAdjustment" objectType="CrvA" count="2">
+                <ActionDescriptor key="2" count="2">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Blue" enumeratedValue="Bl  "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.LISTTYPE key="1131574816" id="1131574816" symname="Curve" sym="Crv ">
+                    <ActionList key="1131574816" id="1131574816" symname="Curve" sym="Crv " count="4">
+                      <DescValueType.OBJECTTYPE key="0" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="0" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="0"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="33"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="1" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="1" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="44"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="53"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="2" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="2" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="114"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="120"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="3" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="3" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="252"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="231"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="hueSaturation" name="Teinte/Saturation" hasDescriptor="true">
+        <ActionDescriptor key="hueSaturation" count="3">
+          <DescValueType.ENUMERATEDTYPE key="628" id="628" symname="presetKind" sym="presetKind" enumeratedTypeString="presetKindType" enumeratedType="presetKindType" enumeratedValueString="presetKindCustom" enumeratedValue="presetKindCustom"/>
+          <DescValueType.BOOLEANTYPE key="1131180666" id="1131180666" symname="Colorize" sym="Clrz" boolean="false"/>
+          <DescValueType.LISTTYPE key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs">
+            <ActionList key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs" count="1">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="HueSatAdjustmentV2" objectType="Hst2" count="3">
+                <ActionDescriptor key="0" count="3">
+                  <DescValueType.INTEGERTYPE key="1210064928" id="1210064928" symname="Hue" sym="H   " integer="0"/>
+                  <DescValueType.INTEGERTYPE key="1400140404" id="1400140404" symname="Saturation" sym="Strt" integer="-25"/>
+                  <DescValueType.INTEGERTYPE key="1281845364" id="1281845364" symname="Lightness" sym="Lght" integer="0"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="brightnessEvent" name="Luminosité/Contraste" hasDescriptor="true">
+        <ActionDescriptor key="brightnessEvent" count="3">
+          <DescValueType.INTEGERTYPE key="1114793832" id="1114793832" symname="Brightness" sym="Brgh" integer="-25"/>
+          <DescValueType.INTEGERTYPE key="1131312242" id="1131312242" symname="Center" sym="Cntr" integer="17"/>
+          <DescValueType.BOOLEANTYPE key="638" id="638" symname="useLegacy" sym="useLegacy" boolean="false"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="levels" name="Niveaux" hasDescriptor="true">
+        <ActionDescriptor key="levels" count="2">
+          <DescValueType.ENUMERATEDTYPE key="628" id="628" symname="presetKind" sym="presetKind" enumeratedTypeString="presetKindType" enumeratedType="presetKindType" enumeratedValueString="presetKindCustom" enumeratedValue="presetKindCustom"/>
+          <DescValueType.LISTTYPE key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs">
+            <ActionList key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs" count="3">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="LevelsAdjustment" objectType="LvlA" count="2">
+                <ActionDescriptor key="0" count="2">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Red" enumeratedValue="Rd  "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.DOUBLETYPE key="1198353696" id="1198353696" symname="Gamma" sym="Gmm " double="1.13"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+              <DescValueType.OBJECTTYPE key="1" objectTypeString="LevelsAdjustment" objectType="LvlA" count="3">
+                <ActionDescriptor key="1" count="3">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Green" enumeratedValue="Grn "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.DOUBLETYPE key="1198353696" id="1198353696" symname="Gamma" sym="Gmm " double="1.18"/>
+                  <DescValueType.LISTTYPE key="1333031028" id="1333031028" symname="Output" sym="Otpt">
+                    <ActionList key="1333031028" id="1333031028" symname="Output" sym="Otpt" count="2">
+                      <DescValueType.INTEGERTYPE key="0" integer="0"/>
+                      <DescValueType.INTEGERTYPE key="1" integer="251"/>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+              <DescValueType.OBJECTTYPE key="2" objectTypeString="LevelsAdjustment" objectType="LvlA" count="3">
+                <ActionDescriptor key="2" count="3">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Blue" enumeratedValue="Bl  "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.DOUBLETYPE key="1198353696" id="1198353696" symname="Gamma" sym="Gmm " double="1.12"/>
+                  <DescValueType.LISTTYPE key="1333031028" id="1333031028" symname="Output" sym="Otpt">
+                    <ActionList key="1333031028" id="1333031028" symname="Output" sym="Otpt" count="2">
+                      <DescValueType.INTEGERTYPE key="0" integer="0"/>
+                      <DescValueType.INTEGERTYPE key="1" integer="251"/>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="brightnessEvent" name="Luminosité/Contraste" hasDescriptor="true">
+        <ActionDescriptor key="brightnessEvent" count="3">
+          <DescValueType.INTEGERTYPE key="1114793832" id="1114793832" symname="Brightness" sym="Brgh" integer="-3"/>
+          <DescValueType.INTEGERTYPE key="1131312242" id="1131312242" symname="Center" sym="Cntr" integer="29"/>
+          <DescValueType.BOOLEANTYPE key="638" id="638" symname="useLegacy" sym="useLegacy" boolean="false"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="transform" name="Transformation" hasDescriptor="true">
+        <ActionDescriptor key="transform" count="7">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.ENUMERATEDTYPE key="1179935603" id="1179935603" symname="FreeTransformCenterState" sym="FTcs" enumeratedTypeString="QuadCenterState" enumeratedType="QCSt" enumeratedValueString="QCSAverage" enumeratedValue="Qcsa"/>
+          <DescValueType.OBJECTTYPE key="1332114292" id="1332114292" symname="Offset" sym="Ofst" objectTypeString="Offset" objectType="Ofst" count="2">
+            <ActionDescriptor key="1332114292" id="1332114292" symname="Offset" sym="Ofst" count="2">
+              <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="5.6843418860808e-14"/>
+              <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Distance" unitDoubleType="#Rlt" unitDoubleValue="0"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.UNITDOUBLE key="1466201192" id="1466201192" symname="Width" sym="Wdth" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="80"/>
+          <DescValueType.UNITDOUBLE key="1214736500" id="1214736500" symname="Height" sym="Hght" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="80"/>
+          <DescValueType.BOOLEANTYPE key="1282304868" id="1282304868" symname="Linked" sym="Lnkd" boolean="true"/>
+          <DescValueType.ENUMERATEDTYPE key="1231975538" id="1231975538" symname="Intersect" sym="Intr" enumeratedTypeString="Interpolation" enumeratedType="Intp" enumeratedValueString="Bicubic" enumeratedValue="Bcbc"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="feather" name="Contour progressif" hasDescriptor="true">
+        <ActionDescriptor key="feather" count="1">
+          <DescValueType.UNITDOUBLE key="1382314784" id="1382314784" symname="Reds" sym="Rds " unitDoubleTypeString="Pixels" unitDoubleType="#Pxl" unitDoubleValue="50"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="duplicate" name="Dupliquer" hasDescriptor="true">
+        <ActionDescriptor key="duplicate" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.STRINGTYPE key="1315774496" id="1315774496" symname="Name" sym="Nm  " string="Cadre2"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.REFERENCETYPE key="1411391520" id="1411391520" symname="To" sym="T   ">
+            <ActionReference key="1411391520" id="1411391520" symname="To" sym="T   " count="1">
+              <ReferenceFormType.NAME key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" name="Cadre"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="subtract" name="Soustraction" hasDescriptor="true">
+        <ActionDescriptor key="subtract" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.NAME key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" name="Cadre2"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.REFERENCETYPE key="1181904749" id="1181904749" symname="From" sym="From">
+            <ActionReference key="1181904749" id="1181904749" symname="From" sym="From" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="make" name="Créer" hasDescriptor="true">
+        <ActionDescriptor key="make" count="1">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.CLASSTYPE key="1283027488" id="1283027488" symname="Layer" sym="Lyr " classString="Layer" class="Lyr "/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="fill" name="Remplir" hasDescriptor="true">
+        <ActionDescriptor key="fill" count="4">
+          <DescValueType.ENUMERATEDTYPE key="1433628263" id="1433628263" symname="Using" sym="Usng" enumeratedTypeString="FillContents" enumeratedType="FlCn" enumeratedValueString="Color" enumeratedValue="Clr "/>
+          <DescValueType.OBJECTTYPE key="1131180576" id="1131180576" symname="Color" sym="Clr " objectTypeString="HSBColor" objectType="HSBC" count="3">
+            <ActionDescriptor key="1131180576" id="1131180576" symname="Color" sym="Clr " count="3">
+              <DescValueType.UNITDOUBLE key="1210064928" id="1210064928" symname="Hue" sym="H   " unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="36.1614990234375"/>
+              <DescValueType.DOUBLETYPE key="1400140404" id="1400140404" symname="Saturation" sym="Strt" double="0"/>
+              <DescValueType.DOUBLETYPE key="1114793832" id="1114793832" symname="Brightness" sym="Brgh" double="66.2745098039216"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+          <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+          <DescValueType.ENUMERATEDTYPE key="1298407456" id="1298407456" symname="Mode" sym="Md  " enumeratedTypeString="BlendMode" enumeratedType="BlnM" enumeratedValueString="Normal" enumeratedValue="Nrml"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.PROPERTY key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" property="1718838636" propertyName="selection" propertySym="selection"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.ENUMERATEDTYPE key="1411391520" id="1411391520" symname="To" sym="T   " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="None" enumeratedValue="None"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.OBJECTTYPE key="1411391520" id="1411391520" symname="To" sym="T   " objectTypeString="Layer" objectType="Lyr " count="1">
+            <ActionDescriptor key="1411391520" id="1411391520" symname="To" sym="T   " count="1">
+              <DescValueType.ENUMERATEDTYPE key="1298407456" id="1298407456" symname="Mode" sym="Md  " enumeratedTypeString="BlendMode" enumeratedType="BlnM" enumeratedValueString="ColorBurn" enumeratedValue="CBrn"/>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.OBJECTTYPE key="1411391520" id="1411391520" symname="To" sym="T   " objectTypeString="Layer" objectType="Lyr " count="2">
+            <ActionDescriptor key="1411391520" id="1411391520" symname="To" sym="T   " count="2">
+              <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="71"/>
+              <DescValueType.OBJECTTYPE key="1281713784" id="1281713784" symname="LayerEffects" sym="Lefx" objectTypeString="LayerEffects" objectType="Lefx" count="1">
+                <ActionDescriptor key="1281713784" id="1281713784" symname="LayerEffects" sym="Lefx" count="1">
+                  <DescValueType.UNITDOUBLE key="1399024672" id="1399024672" symname="Scale" sym="Scl " unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.OBJECTTYPE key="1411391520" id="1411391520" symname="To" sym="T   " objectTypeString="Layer" objectType="Lyr " count="2">
+            <ActionDescriptor key="1411391520" id="1411391520" symname="To" sym="T   " count="2">
+              <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="53"/>
+              <DescValueType.OBJECTTYPE key="1281713784" id="1281713784" symname="LayerEffects" sym="Lefx" objectTypeString="LayerEffects" objectType="Lefx" count="1">
+                <ActionDescriptor key="1281713784" id="1281713784" symname="LayerEffects" sym="Lefx" count="1">
+                  <DescValueType.UNITDOUBLE key="1399024672" id="1399024672" symname="Scale" sym="Scl " unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="mergeLayersNew" name="Fusionner les calques" hasDescriptor="true">
+        <ActionDescriptor key="mergeLayersNew" count="0"/>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="brightnessEvent" name="Luminosité/Contraste" hasDescriptor="true">
+        <ActionDescriptor key="brightnessEvent" count="3">
+          <DescValueType.INTEGERTYPE key="1114793832" id="1114793832" symname="Brightness" sym="Brgh" integer="3"/>
+          <DescValueType.INTEGERTYPE key="1131312242" id="1131312242" symname="Center" sym="Cntr" integer="0"/>
+          <DescValueType.BOOLEANTYPE key="638" id="638" symname="useLegacy" sym="useLegacy" boolean="false"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="curves" name="Courbes" hasDescriptor="true">
+        <ActionDescriptor key="curves" count="2">
+          <DescValueType.ENUMERATEDTYPE key="628" id="628" symname="presetKind" sym="presetKind" enumeratedTypeString="presetKindType" enumeratedType="presetKindType" enumeratedValueString="presetKindCustom" enumeratedValue="presetKindCustom"/>
+          <DescValueType.LISTTYPE key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs">
+            <ActionList key="1097099891" id="1097099891" symname="Adjustment" sym="Adjs" count="1">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="CurvesAdjustment" objectType="CrvA" count="2">
+                <ActionDescriptor key="0" count="2">
+                  <DescValueType.REFERENCETYPE key="1130917484" id="1130917484" symname="Channel" sym="Chnl">
+                    <ActionReference key="1130917484" id="1130917484" symname="Channel" sym="Chnl" count="1">
+                      <ReferenceFormType.ENUMERATED key="1130917484" id="1130917484" symname="Channel" sym="Chnl" desiredClassString="Channel" desiredClass="Chnl" enumeratedTypeString="Channel" enumeratedType="Chnl" enumeratedValueString="Red" enumeratedValue="Rd  "/>
+                    </ActionReference>
+                  </DescValueType.REFERENCETYPE>
+                  <DescValueType.LISTTYPE key="1131574816" id="1131574816" symname="Curve" sym="Crv ">
+                    <ActionList key="1131574816" id="1131574816" symname="Curve" sym="Crv " count="2">
+                      <DescValueType.OBJECTTYPE key="0" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="0" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="0"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="39"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                      <DescValueType.OBJECTTYPE key="1" objectTypeString="Point" objectType="Pnt " count="2">
+                        <ActionDescriptor key="1" count="2">
+                          <DescValueType.DOUBLETYPE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" double="255"/>
+                          <DescValueType.DOUBLETYPE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" double="255"/>
+                        </ActionDescriptor>
+                      </DescValueType.OBJECTTYPE>
+                    </ActionList>
+                  </DescValueType.LISTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="set" name="Définir" hasDescriptor="true">
+        <ActionDescriptor key="set" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="2">
+              <ReferenceFormType.PROPERTY key="1349677170" id="1349677170" symname="Property" sym="Prpr" desiredClassString="Property" desiredClass="Prpr" property="1281713784" propertyName="LayerEffects" propertySym="Lefx"/>
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.OBJECTTYPE key="1411391520" id="1411391520" symname="To" sym="T   " objectTypeString="LayerEffects" objectType="Lefx" count="2">
+            <ActionDescriptor key="1411391520" id="1411391520" symname="To" sym="T   " count="2">
+              <DescValueType.UNITDOUBLE key="1399024672" id="1399024672" symname="Scale" sym="Scl " unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+              <DescValueType.OBJECTTYPE key="1181894232" id="1181894232" symname="FrameFX" sym="FrFX" objectTypeString="FrameFX" objectType="FrFX" count="15">
+                <ActionDescriptor key="1181894232" id="1181894232" symname="FrameFX" sym="FrFX" count="15">
+                  <DescValueType.BOOLEANTYPE key="1701732706" id="1701732706" symname="Enabled" sym="enab" boolean="true"/>
+                  <DescValueType.ENUMERATEDTYPE key="1400142188" id="1400142188" symname="Style" sym="Styl" enumeratedTypeString="FrameStyle" enumeratedType="FStl" enumeratedValueString="CenteredFrame" enumeratedValue="CtrF"/>
+                  <DescValueType.ENUMERATEDTYPE key="1349416020" id="1349416020" symname="PaintType" sym="PntT" enumeratedTypeString="FrameFill" enumeratedType="FrFl" enumeratedValueString="GradientFill" enumeratedValue="GrFl"/>
+                  <DescValueType.ENUMERATEDTYPE key="1298407456" id="1298407456" symname="Mode" sym="Md  " enumeratedTypeString="BlendMode" enumeratedType="BlnM" enumeratedValueString="Multiply" enumeratedValue="Mltp"/>
+                  <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="40"/>
+                  <DescValueType.UNITDOUBLE key="1400512544" id="1400512544" symname="SizeKey" sym="Sz  " unitDoubleTypeString="Pixels" unitDoubleType="#Pxl" unitDoubleValue="1"/>
+                  <DescValueType.OBJECTTYPE key="1131180576" id="1131180576" symname="Color" sym="Clr " objectTypeString="RGBColor" objectType="RGBC" count="3">
+                    <ActionDescriptor key="1131180576" id="1131180576" symname="Color" sym="Clr " count="3">
+                      <DescValueType.DOUBLETYPE key="1382293536" id="1382293536" symname="Red" sym="Rd  " double="227.00000166893"/>
+                      <DescValueType.DOUBLETYPE key="1198681632" id="1198681632" symname="Green" sym="Grn " double="223.334627151489"/>
+                      <DescValueType.DOUBLETYPE key="1114382368" id="1114382368" symname="Blue" sym="Bl  " double="214.5369592309"/>
+                    </ActionDescriptor>
+                  </DescValueType.OBJECTTYPE>
+                  <DescValueType.OBJECTTYPE key="1198678372" id="1198678372" symname="Gradient" sym="Grad" objectTypeString="Gradient" objectType="Grdn" count="5">
+                    <ActionDescriptor key="1198678372" id="1198678372" symname="Gradient" sym="Grad" count="5">
+                      <DescValueType.STRINGTYPE key="1315774496" id="1315774496" symname="Name" sym="Nm  " string="Personnalisé"/>
+                      <DescValueType.ENUMERATEDTYPE key="1198679110" id="1198679110" symname="GradientForm" sym="GrdF" enumeratedTypeString="GradientForm" enumeratedType="GrdF" enumeratedValueString="CustomStops" enumeratedValue="CstS"/>
+                      <DescValueType.DOUBLETYPE key="1231975538" id="1231975538" symname="Intersect" sym="Intr" double="2867"/>
+                      <DescValueType.LISTTYPE key="1131180659" id="1131180659" symname="Colors" sym="Clrs">
+                        <ActionList key="1131180659" id="1131180659" symname="Colors" sym="Clrs" count="2">
+                          <DescValueType.OBJECTTYPE key="0" objectTypeString="ColorStop" objectType="Clrt" count="4">
+                            <ActionDescriptor key="0" count="4">
+                              <DescValueType.OBJECTTYPE key="1131180576" id="1131180576" symname="Color" sym="Clr " objectTypeString="RGBColor" objectType="RGBC" count="3">
+                                <ActionDescriptor key="1131180576" id="1131180576" symname="Color" sym="Clr " count="3">
+                                  <DescValueType.DOUBLETYPE key="1382293536" id="1382293536" symname="Red" sym="Rd  " double="192.000003755093"/>
+                                  <DescValueType.DOUBLETYPE key="1198681632" id="1198681632" symname="Green" sym="Grn " double="179.217900037766"/>
+                                  <DescValueType.DOUBLETYPE key="1114382368" id="1114382368" symname="Blue" sym="Bl  " double="162.634237110615"/>
+                                </ActionDescriptor>
+                              </DescValueType.OBJECTTYPE>
+                              <DescValueType.ENUMERATEDTYPE key="1417244773" id="1417244773" symname="Type" sym="Type" enumeratedTypeString="ColorStopType" enumeratedType="Clry" enumeratedValueString="UserStop" enumeratedValue="UsrS"/>
+                              <DescValueType.INTEGERTYPE key="1281586286" id="1281586286" symname="Location" sym="Lctn" integer="0"/>
+                              <DescValueType.INTEGERTYPE key="1298428014" id="1298428014" symname="Midpoint" sym="Mdpn" integer="50"/>
+                            </ActionDescriptor>
+                          </DescValueType.OBJECTTYPE>
+                          <DescValueType.OBJECTTYPE key="1" objectTypeString="ColorStop" objectType="Clrt" count="4">
+                            <ActionDescriptor key="1" count="4">
+                              <DescValueType.OBJECTTYPE key="1131180576" id="1131180576" symname="Color" sym="Clr " objectTypeString="RGBColor" objectType="RGBC" count="3">
+                                <ActionDescriptor key="1131180576" id="1131180576" symname="Color" sym="Clr " count="3">
+                                  <DescValueType.DOUBLETYPE key="1382293536" id="1382293536" symname="Red" sym="Rd  " double="239.000000953674"/>
+                                  <DescValueType.DOUBLETYPE key="1198681632" id="1198681632" symname="Green" sym="Grn " double="237.509720921516"/>
+                                  <DescValueType.DOUBLETYPE key="1114382368" id="1114382368" symname="Blue" sym="Bl  " double="230.564195215702"/>
+                                </ActionDescriptor>
+                              </DescValueType.OBJECTTYPE>
+                              <DescValueType.ENUMERATEDTYPE key="1417244773" id="1417244773" symname="Type" sym="Type" enumeratedTypeString="ColorStopType" enumeratedType="Clry" enumeratedValueString="UserStop" enumeratedValue="UsrS"/>
+                              <DescValueType.INTEGERTYPE key="1281586286" id="1281586286" symname="Location" sym="Lctn" integer="4096"/>
+                              <DescValueType.INTEGERTYPE key="1298428014" id="1298428014" symname="Midpoint" sym="Mdpn" integer="50"/>
+                            </ActionDescriptor>
+                          </DescValueType.OBJECTTYPE>
+                        </ActionList>
+                      </DescValueType.LISTTYPE>
+                      <DescValueType.LISTTYPE key="1416785523" id="1416785523" symname="Transparent" sym="Trns">
+                        <ActionList key="1416785523" id="1416785523" symname="Transparent" sym="Trns" count="2">
+                          <DescValueType.OBJECTTYPE key="0" objectTypeString="TransparencyStop" objectType="TrnS" count="3">
+                            <ActionDescriptor key="0" count="3">
+                              <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+                              <DescValueType.INTEGERTYPE key="1281586286" id="1281586286" symname="Location" sym="Lctn" integer="0"/>
+                              <DescValueType.INTEGERTYPE key="1298428014" id="1298428014" symname="Midpoint" sym="Mdpn" integer="50"/>
+                            </ActionDescriptor>
+                          </DescValueType.OBJECTTYPE>
+                          <DescValueType.OBJECTTYPE key="1" objectTypeString="TransparencyStop" objectType="TrnS" count="3">
+                            <ActionDescriptor key="1" count="3">
+                              <DescValueType.UNITDOUBLE key="1332765556" id="1332765556" symname="Opacity" sym="Opct" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+                              <DescValueType.INTEGERTYPE key="1281586286" id="1281586286" symname="Location" sym="Lctn" integer="4096"/>
+                              <DescValueType.INTEGERTYPE key="1298428014" id="1298428014" symname="Midpoint" sym="Mdpn" integer="50"/>
+                            </ActionDescriptor>
+                          </DescValueType.OBJECTTYPE>
+                        </ActionList>
+                      </DescValueType.LISTTYPE>
+                    </ActionDescriptor>
+                  </DescValueType.OBJECTTYPE>
+                  <DescValueType.UNITDOUBLE key="1097754476" id="1097754476" symname="Angle" sym="Angl" unitDoubleTypeString="Angle" unitDoubleType="#Ang" unitDoubleValue="105"/>
+                  <DescValueType.ENUMERATEDTYPE key="1417244773" id="1417244773" symname="Type" sym="Type" enumeratedTypeString="GradientType" enumeratedType="GrdT" enumeratedValueString="Linear" enumeratedValue="Lnr "/>
+                  <DescValueType.BOOLEANTYPE key="1383494259" id="1383494259" symname="Reverse" sym="Rvrs" boolean="false"/>
+                  <DescValueType.BOOLEANTYPE key="1148479602" id="1148479602" symname="Dither" sym="Dthr" boolean="false"/>
+                  <DescValueType.UNITDOUBLE key="1399024672" id="1399024672" symname="Scale" sym="Scl " unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="100"/>
+                  <DescValueType.BOOLEANTYPE key="1097623406" id="1097623406" symname="Align" sym="Algn" boolean="true"/>
+                  <DescValueType.OBJECTTYPE key="1332114292" id="1332114292" symname="Offset" sym="Ofst" objectTypeString="Point" objectType="Pnt " count="2">
+                    <ActionDescriptor key="1332114292" id="1332114292" symname="Offset" sym="Ofst" count="2">
+                      <DescValueType.UNITDOUBLE key="1215461998" id="1215461998" symname="Horizontal" sym="Hrzn" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="0"/>
+                      <DescValueType.UNITDOUBLE key="1450341475" id="1450341475" symname="Vertical" sym="Vrtc" unitDoubleTypeString="Percent" unitDoubleType="#Prc" unitDoubleValue="0"/>
+                    </ActionDescriptor>
+                  </DescValueType.OBJECTTYPE>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionDescriptor>
+          </DescValueType.OBJECTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="2" identifier="TEXT" event="select" name="Sélectionner" hasDescriptor="true">
+        <ActionDescriptor key="select" count="2">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.NAME key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " name="Arrière-plan"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.BOOLEANTYPE key="1298880115" id="1298880115" symname="MakeVisible" sym="MkVs" boolean="false"/>
+        </ActionDescriptor>
+      </ActionItem>
+      <ActionItem key="TEXT" expanded="false" enabled="true" withDialog="false" dialogOptions="0" identifier="TEXT" event="blurbTransform" name="Galerie d'effets de flou..." hasDescriptor="true">
+        <ActionDescriptor key="blurbTransform" count="16">
+          <DescValueType.REFERENCETYPE key="1853189228" id="1853189228" symname="Null" sym="null">
+            <ActionReference key="1853189228" id="1853189228" symname="Null" sym="null" count="1">
+              <ReferenceFormType.ENUMERATED key="1283027488" id="1283027488" symname="Layer" sym="Lyr " desiredClassString="Layer" desiredClass="Lyr " enumeratedTypeString="Ordinal" enumeratedType="Ordn" enumeratedValueString="Target" enumeratedValue="Trgt"/>
+            </ActionReference>
+          </DescValueType.REFERENCETYPE>
+          <DescValueType.BOOLEANTYPE key="2320" id="2320" symname="blurbType" sym="blurbType" boolean="true"/>
+          <DescValueType.INTEGERTYPE key="1450341197" id="1450341197" symname="VersionMajor" sym="VrsM" integer="1"/>
+          <DescValueType.INTEGERTYPE key="1450341198" id="1450341198" symname="VersionMinor" sym="VrsN" integer="0"/>
+          <DescValueType.INTEGERTYPE key="2321" id="2321" symname="blurbOpenPanel" sym="2321" integer="0"/>
+          <DescValueType.BOOLEANTYPE key="621" id="621" symname="blurbGeneralBlurEffectApplied" sym="621" boolean="true"/>
+          <DescValueType.BOOLEANTYPE key="623" id="623" symname="blurbIrisBlurEffectApplied" sym="623" boolean="false"/>
+          <DescValueType.BOOLEANTYPE key="622" id="622" symname="blurbLensTiltEffectApplied" sym="622" boolean="false"/>
+          <DescValueType.BOOLEANTYPE key="618" id="618" symname="blurbSaveMaskChannel" sym="618" boolean="false"/>
+          <DescValueType.BOOLEANTYPE key="619" id="619" symname="blurbHighQuality" sym="619" boolean="false"/>
+          <DescValueType.DOUBLETYPE key="614" id="614" symname="blurbBoostHighlights" sym="614" double="0"/>
+          <DescValueType.DOUBLETYPE key="615" id="615" symname="blurbBokehColor" sym="615" double="0"/>
+          <DescValueType.DOUBLETYPE key="616" id="616" symname="blurbLightRangeLow" sym="616" double="191.25"/>
+          <DescValueType.DOUBLETYPE key="617" id="617" symname="blurbLightRangeHigh" sym="617" double="255"/>
+          <DescValueType.BOOLEANTYPE key="620" id="620" symname="blurbBlurEffectsEnabled" sym="620" boolean="true"/>
+          <DescValueType.LISTTYPE key="612" id="612" symname="blurbWidgetList" sym="612">
+            <ActionList key="612" id="612" symname="blurbWidgetList" sym="612" count="1">
+              <DescValueType.OBJECTTYPE key="0" objectTypeString="blurbWidget" objectType="blurbWidget" count="13">
+                <ActionDescriptor key="0" count="13">
+                  <DescValueType.INTEGERTYPE key="2322" id="2322" symname="blurbWidgetType" sym="2322" integer="0"/>
+                  <DescValueType.DOUBLETYPE key="907" id="907" symname="blurbWidgetLocationX" sym="907" double="575"/>
+                  <DescValueType.DOUBLETYPE key="908" id="908" symname="blurbWidgetLocationY" sym="908" double="424"/>
+                  <DescValueType.BOOLEANTYPE key="2323" id="2323" symname="blurbWidgetSelected" sym="2323" boolean="true"/>
+                  <DescValueType.BOOLEANTYPE key="2324" id="2324" symname="blurbWidgetEffectEnabled" sym="2324" boolean="true"/>
+                  <DescValueType.DOUBLETYPE key="910" id="910" symname="blurbWidgetMaskBleeding" sym="910" double="0"/>
+                  <DescValueType.DOUBLETYPE key="909" id="909" symname="blurbWidgetFade" sym="909" double="100"/>
+                  <DescValueType.DOUBLETYPE key="614" id="614" symname="blurbBoostHighlights" sym="614" double="0"/>
+                  <DescValueType.DOUBLETYPE key="615" id="615" symname="blurbBokehColor" sym="615" double="0"/>
+                  <DescValueType.DOUBLETYPE key="616" id="616" symname="blurbLightRangeLow" sym="616" double="191.25"/>
+                  <DescValueType.DOUBLETYPE key="617" id="617" symname="blurbLightRangeHigh" sym="617" double="255"/>
+                  <DescValueType.BOOLEANTYPE key="620" id="620" symname="blurbBlurEffectsEnabled" sym="620" boolean="true"/>
+                  <DescValueType.DOUBLETYPE key="905" id="905" symname="blurbGeneralBlurAmount" sym="905" double="4"/>
+                </ActionDescriptor>
+              </DescValueType.OBJECTTYPE>
+            </ActionList>
+          </DescValueType.LISTTYPE>
+        </ActionDescriptor>
+      </ActionItem>
+    </Action>
+  </ActionSet>
+</ActionFile>

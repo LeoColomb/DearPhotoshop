@@ -1,4 +1,4 @@
-# DearPhotoshop
+# Dear Photoshop
 
 > Photoshoping mise en abyme
 

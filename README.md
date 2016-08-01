@@ -11,11 +11,14 @@ the process.
 
 ## How
 
+_This script/project is originaly build for **Adobe Photoshop CS6**._
+
 * You need a good picture (a photography)
 * You need a pic of a hand (this is the hard point)
 * [Download the script](https://raw.githubusercontent.com/LeoColomb/DearPhotoshop/master/src/DearPhotoshop.atn) and import it in Photoshop
-* Execute the script on the original photography
-* Import the hand
+* Open the original photography and make a selection where the _mise en abime_ will be inserted
+* Execute the script
+* Import and place the hand
 * Wouaouh!
 
 ## License
